@@ -1,5 +1,6 @@
 var isDate = function (input) {
-  //   write your code here
+  let test = new Date(input)
+	return !isNaN(test.getTime()) || input instanceof Date
 };
 
 // Do not change the code below.
